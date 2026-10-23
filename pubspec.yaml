@@ -1,0 +1,15 @@
+name: blh_marilia
+description: Rastreabilidade de leite humano - Banco de Leite Humano de Marília
+publish_to: none
+version: 1.0.0
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  barcode_widget: ^2.0.4
+  google_fonts: ^6.2.1
+  mobile_scanner: ^7.4.2
+  shared_preferences: ^2.3.2
+flutter:
+  uses-material-design: true
